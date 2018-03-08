@@ -24,6 +24,7 @@ class PostsController < ApplicationController
 	end
 
 	def update
+		raise params.inspect
 	end
 
 	get 'posts/:id/edit', to: 'posts#edit',
